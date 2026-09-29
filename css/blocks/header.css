@@ -1,0 +1,92 @@
+.header {
+  padding: 38px 0 0 0;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.header__wrapper-btn {
+  display: flex;
+  gap: 12px;
+}
+
+.header__theme-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  padding: 9.5px;
+  width: 47.9px;
+  height: 47.9px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+}
+
+.header__task-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 600;
+  background-color: #6366F1;
+  color: #fff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+}
+
+.header__botoom {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header__form {
+  position: relative;
+}
+
+.header__form,
+.header__form-input {
+  width: 100%;
+}
+
+.header__form-input {
+  padding: 13px 20px;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #fff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+}
+
+.header__form-btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.header__select {
+  padding: 12px 33.5px;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #FFF;
+  color: #6B7280;
+  text-align: center;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+}
