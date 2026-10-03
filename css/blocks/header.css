@@ -18,13 +18,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #E5E7EB;
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 9.5px;
   width: 47.9px;
   height: 47.9px;
-  background-color: #fff;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+  background-color: var(--color-white);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .header__task-btn {
@@ -38,8 +38,8 @@
   line-height: normal;
   font-weight: 600;
   background-color: #6366F1;
-  color: #fff;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+  color: var(--color-white);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .header__bottom {
@@ -59,13 +59,13 @@
 
 .header__form-input {
   padding: 13px 20px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
-  background-color: #fff;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+  background-color: var(--color-white);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .header__form-btn {
@@ -81,13 +81,13 @@
 
 .header__select {
   padding: 12px 33.5px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
-  background-color: #FFF;
-  color: #6B7280;
+  background-color: var(--color-white);
+  color: var(--color-text-light);
   text-align: center;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
 }
