@@ -5,6 +5,7 @@
 .header__top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 28px;
 }
 
@@ -41,7 +42,7 @@
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05)
 }
 
-.header__botoom {
+.header__bottom {
   display: flex;
   justify-content: space-between;
   gap: 16px;

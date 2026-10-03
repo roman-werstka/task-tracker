@@ -8,4 +8,6 @@
 
 /* Blocks */
 /* ------------------------------------ */
-@import "blocks/header.css"
+@import "blocks/header.css";
+@import "blocks/hero.css";
+@import "blocks/card.css";
